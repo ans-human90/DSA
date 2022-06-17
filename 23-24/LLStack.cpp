@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+class node
+{
+public:
+    int data;
+    node *next;
+
+    node(int val)
+    {
+        data = val;
+        next = NULL;
+    }
+};
+
+class stack
+{
+};
+
+int main()
+{
+
+    return 0;
+}
